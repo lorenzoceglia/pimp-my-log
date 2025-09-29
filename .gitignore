@@ -1,0 +1,46 @@
+# CakePHP
+/tmp/
+/logs/
+/webroot/css/*.css.map
+/webroot/js/*.js.map
+/webroot/img/
+
+# Composer
+/vendor/
+composer.lock
+
+# Configurazioni locali
+/config/app_local.php
+/config/custom_config.php
+
+# Output di test
+/coverage/
+
+# File di sistema
+.DS_Store
+
+# Backup e file editor
+*~
+*.swp
+*.bak
+.idea/
+.vscode/
+
+# Cache
+/tmp/cache/
+/tmp/sessions/
+/tmp/tests/
+
+# File di log
+*.log
+
+# File generati
+*.out
+*.pid
+
+# File di database temporanei
+*.sqlite
+
+# Altri file da ignorare
+.env
+
